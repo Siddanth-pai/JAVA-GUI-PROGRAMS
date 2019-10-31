@@ -32,7 +32,7 @@ class qq extends Frame{
 	
 	//SUB-FRAME FOR ALL PROGRAMS
 	//PROGRAM-1
-
+	//STUDENT RECORD
 	JFrame f1=new JFrame("STUDENT RECORD");
 	f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	f1.setLayout(new FlowLayout());
@@ -48,6 +48,7 @@ btn1.addActionListener(new ActionListener(){
 
 
 	//PROGRAM-2
+	//MERGE SORT
 	JFrame f2=new JFrame("MERGE-SORT");
 	f2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	f2.setLayout(new GridLayout());
